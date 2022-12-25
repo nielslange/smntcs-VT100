@@ -28,7 +28,7 @@
 					"slug": "base"
 				},
 				{
-					"color": "#ECEFF4",
+					"color": "#D8DEE9",
 					"name": "Contrast",
 					"slug": "contrast"
 				},
@@ -50,8 +50,8 @@
 			]
 		},
 		"layout": {
-			"contentSize": "1200px",
-			"wideSize": "1200px"
+			"contentSize": "900px",
+			"wideSize": "900px"
 		},
 		"spacing": {
 			"spacingScale": {
@@ -565,7 +565,7 @@
 			},
 			"h1": {
 				"typography": {
-					"fontSize": "2.5rem",
+					"fontSize": "2.25rem",
 					"lineHeight": "1.2"
 				}
 			},

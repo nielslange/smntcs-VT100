@@ -12,3 +12,7 @@ License URI: http: //www.gnu.org/licenses/gpl-2.0.html
 Text Domain: smntcs-vt100
 Tags: block-patterns, block-styles, custom-colors, custom-font-sizes, custom-line-height, custom-spacing, editor-style, featured-images, footer-widgets, full-alignment, rtl-language-support, sticky-post, threaded-comments, translation-ready
 */
+
+pre.wp-block-code {
+	margin: 1.5em 0;
+}
