@@ -1,0 +1,27 @@
+{
+	"name": "smntcs/smntcs-vt100",
+	"description": "A WordPress block theme based on the VT-100 terminal emulator.",
+	"keywords": [
+		"WordPress",
+		"Themes"
+	],
+	"homepage": "https://github.com/nielslange/smntcs-vt100",
+	"license": "GPL-2.0-or-later",
+	"authors": [
+		{
+			"name": "Niels Lange"
+		}
+	],
+	"require": {
+		"php": ">=5.6"
+	},
+	"require-dev": {
+		"dealerdirect/phpcodesniffer-composer-installer": "^0.7.1",
+		"wptrt/wpthemereview": "^0.2.1"
+	},
+	"config": {
+		"allow-plugins": {
+			"dealerdirect/phpcodesniffer-composer-installer": true
+		}
+	}
+}

@@ -1,0 +1,42 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/theme.json",
+	"version": 2,
+	"title": "Hazeltine 1500",
+	"settings": {
+		"color": {
+			"palette": [
+				{
+					"color": "#3d5961",
+					"name": "Base",
+					"slug": "base"
+				},
+				{
+					"color": "#a3d3e9",
+					"name": "Contrast",
+					"slug": "contrast"
+				}
+			]
+		}
+	},
+	"styles": {
+		"elements": {
+			"button": {
+				"border": {
+					"color": "var(--wp--preset--color--contrast)",
+					"style": "solid",
+					"width": "0.2ch"
+				},
+				"color": {
+					"background": "var(--wp--preset--color--contrast)",
+					"text": "var(--wp--preset--color--base)"
+				},
+				":hover": {
+					"color": {
+						"background": "var(--wp--preset--color--base)",
+						"text": "var(--wp--preset--color--contrast)"
+					}
+				}
+			}
+		}
+	}
+}
