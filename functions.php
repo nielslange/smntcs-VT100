@@ -9,7 +9,7 @@
  */
 
 // Load the TGMPA library.
-require_once get_template_directory() . '/assets/tgm/class-tgm-plugin-activation.php';
+require_once get_theme_file_path() . '/assets/tgm/class-tgm-plugin-activation.php';
 
 /**
  * Enqueue the style.css file.

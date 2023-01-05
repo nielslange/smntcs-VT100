@@ -25,6 +25,7 @@
   },
   "scripts": {
     "archive": "node archive.js",
+    "lint": "npm run lint:css && npm run lint:php",
     "lint:css": "stylelint **/*.css -i .gitignore",
     "lint:css:fix": "stylelint **/*.css -i .gitignore --fix",
     "lint:php": "./vendor/bin/phpcs",
