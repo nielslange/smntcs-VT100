@@ -1,17 +1,18 @@
-/*
-Theme Name: SMNTCS VT-100
-Theme URI: https: //github.com/nielslange/smntcs-VT100
-Author: Niels Lange
-Author URI: https: //nielslange.de
-Description: A WordPress block theme based on the VT-100 terminal emulator.
-Version: 1.0
-Requires at least: 5.8
-Requires PHP: 7.0
-License: GNU General Public License v2 or later
-License URI: http: //www.gnu.org/licenses/gpl-2.0.html
-Text Domain: smntcs-vt100
-Tags: block-patterns, block-styles, custom-colors, custom-font-sizes, custom-line-height, custom-spacing, editor-style, featured-images, footer-widgets, full-alignment, rtl-language-support, sticky-post, threaded-comments, translation-ready
-*/
+/**
+ * Theme Name: SMNTCS VT100 
+ * Theme URI: https://github.com/nielslange/smntcs-VT100
+ * Author: Niels Lange
+ * Author URI: https://nielslange.de
+ * Description: A WordPress block theme based on the VT-100 terminal emulator.
+ * Version: 1.0
+ * Requires at least: 5.8
+ * Requires PHP: 7.0
+ * Tested up to: 6.1
+ * License: GNU General Public License v2 or later
+ * License URI: http: //www.gnu.org/licenses/gpl-2.0.html
+ * Text Domain: smntcs-vt100
+ * Tags: block-patterns, block-styles, custom-colors, custom-font-sizes, custom-line-height, custom-spacing, editor-style, featured-images, footer-widgets, full-alignment, rtl-language-support, sticky-post, threaded-comments, translation-ready
+ */
 
 pre.wp-block-code {
 	margin: 1.5em 0;

@@ -1,4 +1,5 @@
+dist
 node_modules
 vendor
+.cache
 .DS_Store
-/.DS_Store
