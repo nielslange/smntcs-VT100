@@ -15,7 +15,7 @@ const files = [
 const directories = [ 'parts', 'patterns', 'styles', 'templates' ];
 
 // create a file to stream archive data to.
-const version = '1.0-beta-1';
+const version = '1.0.1';
 const output = fs.createWriteStream(
 	__dirname + '/dist/smntcs-vt100-' + version + '.zip'
 );
