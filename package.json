@@ -1,34 +1,35 @@
 {
-  "name": "smntcs-vt100",
-  "description": "A WordPress block theme based on the VT-100 terminal emulator.",
-  "author": "Niels Lange",
-  "license": "GPL-2.0-or-later",
-  "keywords": [
-    "WordPress",
-    "theme"
-  ],
-  "homepage": "https://github.com/nielslange/smntcs-vt100#readme",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/nielslange/smntcs-vt100.git"
-  },
-  "bugs": {
-    "url": "https://github.com/nielslange/smntcs-vt100/issues"
-  },
-  "devDependencies": {
-    "@wordpress/env": "5.8.0",
-    "@wordpress/prettier-config": "2.6.0",
-    "@wordpress/stylelint-config": "^20.0.2",
-    "archiver": "5.3.1",
-    "prettier": "npm:wp-prettier@2.6.2",
-    "stylelint": "^14.10.0"
-  },
-  "scripts": {
-    "archive": "node archive.js",
-    "lint:css": "stylelint **/*.css -i .gitignore",
-    "lint:css:fix": "stylelint **/*.css -i .gitignore --fix",
-    "lint:php": "./vendor/bin/phpcs",
-    "lint:php:fix": "./vendor/bin/phpcbf",
-    "wp-env": "wp-env"
-  }
+	"name": "smntcs-vt100",
+	"description": "A WordPress block theme based on the VT-100 terminal emulator.",
+	"author": "Niels Lange",
+	"license": "GPL-2.0-or-later",
+	"keywords": [
+		"WordPress",
+		"theme"
+	],
+	"homepage": "https://github.com/nielslange/smntcs-vt100#readme",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/nielslange/smntcs-vt100.git"
+	},
+	"bugs": {
+		"url": "https://github.com/nielslange/smntcs-vt100/issues"
+	},
+	"devDependencies": {
+		"@wordpress/env": "5.8.0",
+		"@wordpress/prettier-config": "2.6.0",
+		"@wordpress/stylelint-config": "^20.0.2",
+		"archiver": "5.3.1",
+		"prettier": "npm:wp-prettier@2.6.2",
+		"stylelint": "^14.10.0"
+	},
+	"scripts": {
+		"archive": "node archive.js",
+		"lint": "npm run lint:css && lint:php",
+		"lint:css": "stylelint **/*.css -i .gitignore",
+		"lint:css:fix": "stylelint **/*.css -i .gitignore --fix",
+		"lint:php": "./vendor/bin/phpcs",
+		"lint:php:fix": "./vendor/bin/phpcbf",
+		"wp-env": "wp-env"
+	}
 }
